@@ -42,7 +42,7 @@ render(
         <Route path="/landscaping" component={Landscaping} />
         <Route path="/contact" component={Contact} />
       </Route>
-      <Route path='*' component={Home} />
+      <Route path='*' component={NotFound} />
     </Router>
   </Provider>,
   document.getElementById('main')
