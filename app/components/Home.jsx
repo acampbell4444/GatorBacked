@@ -12,7 +12,7 @@ export default class Home extends Component {
       <div id='pageContainer'>
         <div id='harvestCanvas'>
           <h1 id='rainHarvestTitle'>SUSTAINABLE SOLUTIONS</h1>
-	      <h3 id='harvestText'>
+	      <h3 id='remodelingText'>
 			Serving the front range of northern Colorado. GatorBacked Solutions provides more than 25 combined years of service to the community.<br/><br/>
 			We have developed methods with conscious efforts made toward improving the way we impact the environment. Approaching design opportunities with economic and environmental solutions that custom fit any project or budget.<br/><br/>
 			We have made a decision to provide our clients with a sustainable environmentally safe alternative to residential and commercial construction, or renovation.
@@ -29,7 +29,7 @@ export default class Home extends Component {
 			    </video>
 			    <figcaption><i>Preparing For A Future</i></figcaption>
 			    <div className='cont'>
-                 <p className='threeStars'>{'\u2728'}</p>
+                 <img id='faceGatorHome' src='images/FaceGator.png'/>
 		        </div>
 			
 		    </div>

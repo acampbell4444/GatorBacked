@@ -56,11 +56,11 @@ export default class NavBar extends Component {
 		   >
 		      LANDSCAPING
 		   </NavItem>
-		   <NavItem id='navLinkText' eventKey={5} href="#"
+{/*		   <NavItem id='navLinkText' eventKey={5} href="#"
 		   			onClick={e => browserHistory.push('contact')}
 		   >
 		      CONTACT
-		   </NavItem>
+		   </NavItem>*/}
 		  </Nav>
 
 	    </Navbar.Collapse>

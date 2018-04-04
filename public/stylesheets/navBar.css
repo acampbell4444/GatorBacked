@@ -56,16 +56,16 @@ li {
     background-color: black;
   }
 
-  #navLinkTextfirst { 
-    display: none;
-  }
-
-  #navLinkTextSecond {
+  #navLinkTextfirst {
     margin-top: 80px;
     margin-left: 150px;
     z-index: 999;
     background-color: black;
     overflow: hidden;
+  }
+
+  #navLinkTextSecond {
+    margin-top: 80px;
   }
 
 

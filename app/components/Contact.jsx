@@ -12,9 +12,10 @@ export default class Contact extends Component {
       <div id='pageContainer'>
       <div id='harvestCanvas'>
       <h1 id='rainHarvestTitle'>CONTACT</h1>
-      <h3 id='harvestText'>Under Construction</h3>
+      <h3 id='contactText'>Under Construction</h3>
 		<div>
-      <p className='threeStars'>{'\u2728'}</p>
+    <img id='faceGatorHome' src='images/FaceGator.png'/>
+
 		</div>
 	  </div>
 	  </div>

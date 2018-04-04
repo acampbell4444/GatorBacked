@@ -19,7 +19,7 @@ export default class Remodeling extends Component {
           In order to remain sustainable, GatorBacked Solutions provides cost effective environmentally conscious options for its clients. Maintaining your property as a part of your effort in sustainability increases the life of your investments.
           <br/><br/> Be a part of the solution with GatorBacked Solutions. Contact a GatorBacked Solutions consultant near you today.</h3>
 	        <div className='cont'>
-            <p className='threeStars'>{'\u2728'}</p>
+            <img id='faceGatorHome' src='images/FaceGator.png'/>
           </div>
         </div>
 	    </div>

@@ -10,8 +10,21 @@ figcaption {
 	margin-bottom: 12%;
 }
 
+#faceGatorHome {
+	display: block;
+	margin: 100px auto 0px auto;
+	text-align: center
+}
+
+
+
 @media only screen and (min-width: 768px) {
   video {
     width: 50%;
   }
+
+  #faceGatorHome {
+  	margin-top: 190px;
+  }
 }
+
