@@ -2,7 +2,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 30px;
+    height: 28px;
     width: 100%;
     background-color: red;
     color: white;
@@ -27,7 +27,7 @@
 
 #footerText1, #footerText2, #dot {
   color: white ;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 900;
   text-shadow:
     -1px -1px 0 black,
