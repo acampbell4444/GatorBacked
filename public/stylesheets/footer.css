@@ -11,6 +11,8 @@
     background-size: 100% 100%;
     z-index: 99999;
     border-top: 2px black solid;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 #footer:before {
@@ -27,7 +29,7 @@
 
 #footerText1, #footerText2, #dot {
   color: white ;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 900;
   text-shadow:
     -1px -1px 0 black,

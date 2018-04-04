@@ -30715,7 +30715,12 @@ var RainHarvest = function (_Component) {
           _react2.default.createElement('br', null),
           ' No chemicals added in the treatment of the water helps in greener plants and lawns. Gator Backed Solutions has a rain harvesting solution for any budget. From the rain barrel to landscaped ponds and wildlife refuges.'
         ),
-        _react2.default.createElement('img', { id: 'faceGatorRain', src: 'images/FaceGator.png' })
+        _react2.default.createElement('img', { id: 'faceGatorRain', src: 'images/FaceGator.png' }),
+        _react2.default.createElement(
+          'div',
+          { id: 'spacer' },
+          '.'
+        )
       );
     }
   }]);

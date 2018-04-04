@@ -68,6 +68,7 @@ export default class RainHarvest extends Component {
        Naturally harvested rain water is free because it uses gravity in the collection and the delivery process. This makes rain water a far better solution for watering plants lawns and gardens.
        <br/><br/> No chemicals added in the treatment of the water helps in greener plants and lawns. Gator Backed Solutions has a rain harvesting solution for any budget. From the rain barrel to landscaped ponds and wildlife refuges.</h3>
 	     <img id='faceGatorRain' src='images/FaceGator.png'/>
+       <div id='spacer'>.</div>
     </div>
     )
    }
