@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Navbar, NavItem, NavDropdown, MenuItem, Nav, Image } from 'react-bootstrap'
-import { browserHistory } from 'react-router'
+import { hashHistory } from 'react-router'
 
 export default class NavBar extends Component {
 
@@ -17,7 +17,7 @@ export default class NavBar extends Component {
 		   <div id='navBarLogo'>
 			<NavItem eventKey={6} 
 					 onClick={e => {
-						browserHistory.push('home')
+						hashHistory.push('home')
 						this.setState({toggleNav: false})
 					 }}
 
@@ -35,29 +35,29 @@ export default class NavBar extends Component {
 		  <Nav>
 
 		   <NavItem id='navLinkTextfirst' eventKey={1} href="#" 
-		   			onClick={e => browserHistory.push('home')} 
+		   			onClick={e => hashHistory.push('home')} 
 		   >
 		      HOME
 		   </NavItem>
 
 		   <NavItem id='navLinkTextSecond' eventKey={2} href="#" 
-		   			onClick={e => browserHistory.push('rainHarvest')} 
+		   			onClick={e => hashHistory.push('rainHarvest')} 
 		   >
 		      RAIN HARVESTING
 		   </NavItem>		   
 		   
 		   <NavItem id='navLinkText' eventKey={3} href="#"
-		   			onClick={e => browserHistory.push('remodeling')}
+		   			onClick={e => hashHistory.push('remodeling')}
 		   >
 		      REMODELING
 		   </NavItem>
 		   <NavItem id='navLinkText' eventKey={4} href="#"
-					onClick={e => browserHistory.push('landscaping')}
+					onClick={e => hashHistory.push('landscaping')}
 		   >
 		      LANDSCAPING
 		   </NavItem>
 {/*		   <NavItem id='navLinkText' eventKey={5} href="#"
-		   			onClick={e => browserHistory.push('contact')}
+		   			onClick={e => hashHistory.push('contact')}
 		   >
 		      CONTACT
 		   </NavItem>*/}

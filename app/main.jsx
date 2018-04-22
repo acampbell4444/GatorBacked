@@ -2,7 +2,7 @@
 
 import 'babel-polyfill'
 import React from 'react'
-import {Router, Route, IndexRedirect, browserHistory} from 'react-router'
+import {Router, Route, IndexRedirect, hashHistory} from 'react-router'
 import {render} from 'react-dom'
 import {connect, Provider} from 'react-redux'
 import store from './store'
@@ -33,7 +33,7 @@ const GatorBacked = connect(
 
 render(
   <Provider store={store}>
-    <Router history={browserHistory}>
+    <Router history={hashHistory}>
       <Route path="/" component={GatorBacked}>
         <IndexRedirect to="/home" />
         <Route path="/home" component={Home} />
