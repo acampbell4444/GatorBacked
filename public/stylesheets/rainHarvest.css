@@ -71,18 +71,12 @@
 }
 
 #theRainHarvestTitle {
-  z-index: 999;
+   z-index: 999;
   color: ghostwhite;
-  position: absolute;
-  top: 165px;
   text-align: center;
   font-size: 35px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
   font-weight: 900;
+  margin-bottom: 40px;
   text-shadow:
     -1px -1px 0 black,
     1px -1px 0 black,
@@ -117,7 +111,6 @@
 
 #rainHarvestText {
   margin-bottom: 5%;
-  margin-top: 95px;
   z-index: 999;
   color: black;
   position: relative;
@@ -652,7 +645,7 @@
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 13%;
-    margin-top: 118px;
+    margin-top: 18px;
   }
 
   .cloud {
