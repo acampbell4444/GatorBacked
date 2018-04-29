@@ -18,6 +18,7 @@ import Login from './components/Login'
 import WhoAmI from './components/WhoAmI'
 import NotFound from './components/NotFound'
 import Footer from './components/Footer'
+import BoxOfRainModal from './components/BoxOfRainModal'
 
 
 const GatorBacked = connect(
@@ -41,6 +42,7 @@ render(
         <Route path="/remodeling" component={Remodeling} />
         <Route path="/landscaping" component={Landscaping} />
         <Route path="/contact" component={Contact} />
+        <Route path="/boxOfRain" component={BoxOfRainModal} />
       </Route>
       <Route path='*' component={NotFound} />
     </Router>

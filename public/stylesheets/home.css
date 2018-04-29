@@ -1,3 +1,19 @@
+#homeTitle {
+  z-index: 999;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
 video {
   margin: 0 auto;
   display: block;
@@ -16,6 +32,38 @@ figcaption {
 	text-align: center
 }
 
+@-webkit-keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+            transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+            transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -24,7 +72,12 @@ figcaption {
   }
 
   #faceGatorHome {
-  	margin-top: 190px;
+    margin-top: 190px;
   }
+
+  #homeTitle {
+      font-size: 45px;
+    }
 }
+
 
