@@ -71,7 +71,7 @@ module.exports = app
   })
 
   // Send index.html for anything else.
-  .get('/*', (_, res) => res.sendFile(resolve(__dirname, '..', 'public', 'index.html')))
+  .get('*', (_, res) => res.sendFile(resolve(__dirname, '..', 'public', 'index.html')))
 
   // Error middleware interceptor, delegates to same handler Express uses.
   // https://github.com/expressjs/express/blob/master/lib/application.js#L162
