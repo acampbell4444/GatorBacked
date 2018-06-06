@@ -11,7 +11,7 @@ export default class Remodeling extends Component {
     return (
       <div id='pageContainer'>
         <div id='harvestCanvas'>
-          <h1 id='remodelingTitle'>REMODELING</h1>
+          <h1 id='remodelingTitle' className='title'>REMODELING</h1>
           <h3 id='remodelingText'>Saving money while using fewer resources is every ones goal.
           <br/><br/> Replacing old windows, doors, insulation, or siding with energy efficient upgrades can drastically decrease your energy consumption. Lower your monthly bills and your 
           <a href='http://myfootprint.org/'  target="_blank"> carbon footprint </a>

@@ -2,7 +2,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 28px;
+    height: 25px;
     width: 100%;
     background-color: red;
     color: white;
@@ -29,7 +29,7 @@
 
 #footerText1, #footerText2, #dot {
   color: white ;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
   text-shadow:
     -1px -1px 0 black,
@@ -46,12 +46,12 @@
 
 @media only screen and (min-width: 768px) {
 	#footer {
-		height: 50px;
-		padding-top: 0.5%;
+		height: 30px;
+		padding-top: 0.1%;
 	}
 
 	#footerText1, #footerText2, #dot {
-      font-size: 26px;
+      font-size: 20px;
     }
 
 }

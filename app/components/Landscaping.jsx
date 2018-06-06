@@ -11,7 +11,7 @@ export default class Landscaping extends Component {
     return (
       <div id='pageContainer'>
         <div id='harvestCanvas'>
-          <h1 id='landscapingTitle'>LANDSCAPING</h1>
+          <h1 id='landscapingTitle' className='title'>LANDSCAPING</h1>
             <h3 id='remodelingText'>Reduce your carbon footprint by using Gator Backed Solutions for your landscaping needs. <br/><br/>
              What sets us apart from the rest is our approach to keeping your lawn and garden healthy. We will cut the grass, plant and maintain gardens and composts.<br/><br/>
              Depending on the size of the garden you can drastically offset your carbon footprint. Lower the amount of garbage you send to the landfill while creating new active organic compost. 

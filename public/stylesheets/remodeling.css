@@ -1,15 +1,4 @@
 #remodelingTitle {
-  z-index: 999;
-  color: white;
-  text-align: center;
-  font-size: 35px;
-  font-weight: 900;
-  margin-bottom: 40px;
-  text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
   -webkit-animation: tracking-in-expand-fwd 1.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand-fwd 1.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -67,7 +56,7 @@
 
 @media only screen and (min-width: 768px) {
     #remodelingTitle {
-      font-size: 45px;
+      font-size: 30px;
     }
 
     #remodelingText {

@@ -12,7 +12,7 @@ export default class RainHarvest extends Component {
     return (
       <div id='pageContainer'>
       <div id='harvestCanvas'>
-      <h1 id='theRainHarvestTitle'>RAIN HARVESTING</h1>
+      <h1 id='theRainHarvestTitle' className='title'>RAIN HARVESTING</h1>
 
       
       

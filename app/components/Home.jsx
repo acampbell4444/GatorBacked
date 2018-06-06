@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Carousel } from 'react-responsive-carousel'
 
 export default class Home extends Component {
 
@@ -11,9 +12,33 @@ export default class Home extends Component {
     return (
       <div id='pageContainer'>
         <div id='harvestCanvas'>
-          <h1 id='homeTitle'>SUSTAINABLE SOLUTIONS</h1>
+           <Carousel 
+               showArrows={true} showThumbs={false}
+               autoPlay={true} interval={6000} 
+               infiniteLoop={true} >
+                
+                <div>
+                    <h1 className='title' id='homeTitle'>Sustainable, eco-friendly home design solutions.</h1>
+                    <img className='homeCarPic' src="/images/patio.jpg"/>
+                </div>
+                
+                <div>
+                    <h1 className='title' id='homeTitle'>Built to last. Budget Friendly.</h1>
+                    <img className='homeCarPic' src="/images/concrete.jpg"/>
+                </div>
+
+                <div>
+                    <h1 className='title' id='homeTitle'>Landscaping designs that harness natural resources.</h1>
+                    <img className='homeCarPic' src="/images/garden.jpg"/>
+                </div>                
+
+                <div>
+                    <h1 className='title' id='homeTitle'>Proudly serving Front-Range Colorado.</h1>
+                    <img className='homeCarPic' src="/images/riverst.jpg"/>
+                </div>
+
+            </Carousel>
 	      <h3 id='remodelingText'>
-			Serving Front Range Colorado.<br/> <br/>
 			We have developed methods with conscious efforts made toward improving the way we impact the environment. 
 			Approaching design opportunities with economic and environmental solutions that custom fit any project and any budget. 
 			<br/><br/>

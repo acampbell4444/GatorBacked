@@ -1,17 +1,16 @@
 #homeTitle {
-  z-index: 999;
-  color: white;
-  text-align: center;
-  font-size: 35px;
-  font-weight: 900;
-  margin-bottom: 40px;
-  text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
     -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
           animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.homeCarousel {
+  /*max-height: 400px*/
+}
+
+.homeCarPic {
+  max-width: 600px;
+  height: 300px;
+  margin-bottom: 5%;
 }
 
 video {
@@ -28,7 +27,7 @@ figcaption {
 
 #faceGatorHome {
 	display: block;
-	margin: 100px auto 0px auto;
+	margin: 80px auto 0px auto;
 	text-align: center
 }
 
@@ -74,10 +73,6 @@ figcaption {
   #faceGatorHome {
     margin-top: 190px;
   }
-
-  #homeTitle {
-      font-size: 45px;
-    }
 }
 
 

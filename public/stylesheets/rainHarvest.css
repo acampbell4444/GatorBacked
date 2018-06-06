@@ -63,7 +63,7 @@
 #harvestCanvas {
   color: white;
   z-index: -1;
-  padding: 10%;
+  padding: 7%;
 }
 
 #houseAndTrees {
@@ -71,17 +71,6 @@
 }
 
 #theRainHarvestTitle {
-   z-index: 999;
-  color: ghostwhite;
-  text-align: center;
-  font-size: 35px;
-  font-weight: 900;
-  margin-bottom: 40px;
-  text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
           animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -624,7 +613,7 @@
 
 @media only screen and (min-width: 768px) {
   #theRainHarvestTitle {
-    font-size: 45px;
+    font-size: 30px;
     top: 225px;
   }
 

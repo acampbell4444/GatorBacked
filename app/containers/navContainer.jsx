@@ -3,10 +3,10 @@ import {connect} from 'react-redux'
 
 const mapStateToProps = (state, ownProps) => {
     let user = ownProps.user
-  //const currentComponent = state.auth.currentComponent
+    const currentRoute = state.navBar.currentRoute
   return {
     user,
-    //currentComponent
+    currentRoute
   }
 }
 

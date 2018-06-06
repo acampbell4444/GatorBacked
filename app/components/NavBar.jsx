@@ -7,6 +7,7 @@ export default class NavBar extends Component {
   state = {toggleNav:false}
 
   render() {
+  	const { currentRoute } = this.props
     return (
       <div>
 	  <Navbar inverse collapseOnSelect fixedTop={true} expanded={this.state.toggleNav}
@@ -34,27 +35,35 @@ export default class NavBar extends Component {
 		<Navbar.Collapse>
 		  <Nav>
 
-		   <NavItem id='navLinkTextfirst' eventKey={1} href="#" 
+		   <NavItem id={true ? 'navLinkTextfirst' : ''} eventKey={1} href="#" 
 		   			onClick={e => hashHistory.push('home')} 
 		   >
-		      HOME
+		      <span id={currentRoute === 'home' ? 'highlightLink' : ''}>
+		        HOME
+		      </span>
 		   </NavItem>
 
 		   <NavItem id='navLinkTextSecond' eventKey={2} href="#" 
 		   			onClick={e => hashHistory.push('rainHarvest')} 
 		   >
+		   <span id={currentRoute === 'rainHarvest' ? 'highlightLink' : ''}>
 		      RAIN HARVESTING
+		   </span>
 		   </NavItem>		   
 		   
 		   <NavItem id='navLinkText' eventKey={3} href="#"
 		   			onClick={e => hashHistory.push('remodeling')}
 		   >
+		   <span id={currentRoute === 'remodeling' ? 'highlightLink' : ''}>
 		      REMODELING
+		   </span>
 		   </NavItem>
 		   <NavItem id='navLinkText' eventKey={4} href="#"
 					onClick={e => hashHistory.push('landscaping')}
 		   >
+		   <span id={currentRoute === 'landscaping' ? 'highlightLink' : ''}>
 		      LANDSCAPING
+		   </span>
 		   </NavItem>
 {/*		   <NavItem id='navLinkText' eventKey={5} href="#"
 		   			onClick={e => hashHistory.push('contact')}

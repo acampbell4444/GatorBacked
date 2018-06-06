@@ -1,10 +1,15 @@
-#rainHarvestTitle {
+.title {
   z-index: 999;
   color: white;
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 900;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 #pageContainer {
@@ -40,6 +45,10 @@
     #rainHarvestTitle {
       font-size: 45px;
     }
+
+    .title {
+      font-size: 30px;
+    }
 }
 
 .threeStars {
@@ -54,4 +63,6 @@ a:hover {
   text-decoration: none;
   color: #00cc44;
 }
+
+
 

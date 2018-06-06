@@ -27,6 +27,11 @@ li {
   color: blue;
 }
 
+#highlightLink {
+  color: blue ;
+  font-weight: 900;
+}
+
 .navbar.navbar-inverse.navbar-fixed-top {
 	height: 100px;
 	display: inline-block;
@@ -34,6 +39,17 @@ li {
 
 .navbar-collapse.collapse.in {
 	/*text-align: center;*/
+}
+
+#currentPage {
+  position: fixed;
+  top : 20px;
+  left: 500px;
+  z-index: 9999999;
+}
+
+#highlightedNavItem {
+  color: blue;
 }
 
 @media only screen and (min-width: 768px) {
@@ -85,6 +101,8 @@ li {
     margin: 0 auto;
   }
 }
+
+
 
 
 
